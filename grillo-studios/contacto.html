@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grillo Studios - Contacto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    
+    <header>
+
+        <nav class="header-nav">
+
+            <div class="header-title">
+                <h1>Grillo<br><span>Studios</span></h1>
+                <span class="title-span">Recording</span>
+            </div>
+
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/servicios.html">Servicios</a></li>
+                <li><a href="/nosotros.html">Nosotros</a></li>
+                <li><a href="/contacto.html">Contacto</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <section class="contacto">
+
+        <h2>Contacto</h2>
+
+        <form action="" class="formulario container">
+
+            <div class="formulario-top">
+            
+                
+                <div class="formulario-top-L">
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" class="datos-tipeo" id="nombre" name="nombre" >
+                    
+                        <label for="correo">Correo</label>
+                        <input type="email" name="correo" id="correo" class="datos-tipeo" >
+                    
+                        <label for="cliente">Cliente</label>
+                        <input type="text" class="datos-tipeo" id="cliente" name="cliente" >
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Elija el proceso de producción</legend>
+                        <div class="check-proceso">
+                            <label for="">Grabación</label>
+                            <input type="checkbox" name="grabacion" id="check-grabacion">
+                        </div>
+                        <div class="check-proceso">
+                            <label for="check-edicion">Edición</label>
+                            <input type="checkbox" name="edicion" id="check-edicion">
+                        </div>
+                        <div class="check-proceso">
+                            <label for="check-mezcla">Mezcla</label>
+                            <input type="checkbox" name="mezcla" id="check-mezcla">
+                        </div>
+                        <div class="check-proceso">
+                            <label for="check-mastering">Mastering</label>
+                            <input type="checkbox" name="mastering" id="check-mastering">
+                        </div>
+                    </fieldset>
+                </div>
+            
+                <div class="formulario-top-R">
+            
+                    <fieldset>
+                    <legend>Escoja qué desea realizar</legend>
+                    <div class="check-proceso">
+                        <label for="voice-over">Voice Over</label>
+                        <input type="checkbox" name="voice-over" id="voice-over">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="cantidad-voces">Cantidad de voces</label>
+                        <input type="number" name="" id="cantidad-voces">
+                    </div>
+            
+            
+                    <div class="check-proceso">
+                        <label for="check-publicidad">Cuña / Publicidad</label>
+                        <input type="checkbox" name="publicidad" id="check-publicidad">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="cantidad-canales">Cantidad de canales</label>
+                        <input type="number" name="cantidad-canales" id="cantidad-canales">
+                    </div>
+            
+                    <div class="check-proceso">
+                        <label for="check-canciones">Canción</label>
+                        <input type="checkbox" name="check-canciones" id="check-canciones">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="cantidad-canciones">Cantidad de canciones</label>
+                        <input type="number" name="cantidad-canciones" id="cantidad-canciones">
+                    </div>
+            
+                    <div class="check-proceso">
+                        <label for="check-track">Track específico</label>
+                        <input type="checkbox" name="check-track" id="check-track">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="value-track">Cantidad de canales</label>
+                        <input type="number" name="value-track" id="value-track">
+                    </div>
+            
+                    <div class="check-proceso">
+                        <label for="check-stems">Stems</label>
+                        <input type="checkbox" name="check-stems" id="check-stems">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="value-stems">Cantidad de canales</label>
+                        <input type="number" name="value-stems" id="value-stems">
+                    </div>
+            
+                    <div class="check-proceso">
+                        <label for="check-estereo">Estéreo</label>
+                        <input type="checkbox" name="check-estereo" id="check-estereo">
+                    </div>
+            
+                    <div class="check-numbers">
+                        <label for="value-estereo">Cantidad de temas</label>
+                        <input type="number" name="value-estereo" id="value-estereo">
+                    </div>
+                    </fieldset>
+            
+                </div>
+            
+            </div>
+            
+            <div class="mensaje-formulario">
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje" placeholder="Indique los detalles de su proyecto aquí"></textarea>
+            </div>
+
+            <div class="btn-container">
+                <button type="submit" id="btn-enviar" value="Enviar">Enviar</button>
+            </div>
+            
+        </form>
+
+    </section>
+
+    <footer class="footer"></footer>
+
+    <script src="/assets/js/main.js"></script>
+
+</body>
+</html>

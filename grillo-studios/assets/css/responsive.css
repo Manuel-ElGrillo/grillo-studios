@@ -1,0 +1,356 @@
+@media (max-width: 1024px) {
+    
+    /* Home */
+
+    .hero-content-title {
+        font-size: 2.6rem;
+    }
+
+    .servicios {
+        height: 49rem;
+    }
+
+    .signal-1::after, .signal-2::after, .signal-3::after, .signal-4::after, .signal-master-L::after, .signal-master-R::after {
+        bottom: 1.8rem;
+        width: 0.6rem;
+    }
+
+    .signal-2::after {
+        left: 16.8rem;
+    }
+
+    .signal-3::after {
+        left: 37.3rem;
+    }
+
+    .signal-4::after {
+        left: 57.8rem;
+    }
+
+    .signal-master-L::after {
+        left: 82rem;
+    }
+
+    .signal-master-R::after {
+        left: 83.2rem;
+    }
+
+    .fader-1 img, .fader-2 img, .fader-3 img, .fader-4 img, .fader-5 img {
+        width: 2rem;
+    }
+
+    .fader-2 {
+        left: 16.1rem
+    }
+
+    .fader-3 {
+        left: 36.6rem;
+    }
+
+    .fader-4 {
+        left: 57.1rem;
+    }
+
+    .fader-5 {
+        left: 81.9rem;
+        top: 7.4rem;
+    }
+
+    .dB-1, .dB-2, .dB-3, .dB-4, .dB-5 {
+        bottom:1.8rem;
+    }
+
+    .dB-2 {
+        left: 18rem;
+    }
+
+    .dB-3 {
+        left: 38.5rem;
+    }
+
+    .dB-4 {
+        left: 59rem;
+    }
+
+    .dB-5 {
+        left: 78.5rem;
+    }
+
+    .master {
+        left: 80rem;
+        top: 0;
+    }
+
+    /* Servicios page */
+    
+    .servicio-detalles-container {
+        height: 51rem;
+    }
+
+    .servicio-detalles-sec p {
+        text-align: center;
+    }
+
+    /* Nosotros page */
+
+    .engineer {
+        padding: 0;
+        column-gap: 0;
+    }
+
+    .engineer div img {
+        width: 12rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width: 768px) {
+    
+    /* Home */
+
+    .hero-content-title h2 {
+        text-align: center;
+        font-size: 2.8rem;
+    }
+
+    .servicios {
+        height: 67rem;
+    }
+
+    .servicios-prod {
+        grid-template-columns: repeat(2,1fr);
+        row-gap: 2rem;
+    }
+
+    .servicios-link {
+        justify-content: center;
+    }
+
+    .artistas {
+        height: 78rem;
+    }
+
+    .artistas-container {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    .dB-5, .fader-5, .signal-master-L::after, .signal-master-R::after, .master {
+        display: none;
+    }
+
+    .dB-1, .dB-2 {
+        bottom: 36rem;
+    }
+
+    .signal-1::after, .signal-2::after{
+        bottom: 36rem;
+    }
+
+    .fader-1{
+        top: 8.3rem;
+    }
+
+    .dB-2, .dB-4 {
+        left: 56rem;
+    }
+
+    .signal-2::after, .signal-4::after {
+        left: 59rem;
+    }
+
+    .fader-2 {
+        top: 4rem;
+        left: 58.3rem;
+    }
+
+    .dB-3, .dB-4 {
+        bottom: -0.8rem;
+    }
+
+    .dB-3 {
+        left: -2.7rem;
+    }
+
+    .fader-3 {
+        left: -5.5rem;
+        top: 45rem;
+    }
+
+    .signal-3::after {
+        left: -4.8rem;
+    }
+
+    .signal-3::after, .signal-4::after {
+        bottom: -1rem;
+    }
+
+    .fader-4 {
+        top: 40rem;
+        left: 58.3rem;
+    }
+
+    /* Servicios page */
+
+    .servicio-detalles-container {
+        height: 78rem;
+    }
+
+    .servicio-detalles {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+    /* Nosotros page */
+
+    .us-info-content img {
+        height: 60%;
+    }
+
+    .engineer {
+        grid-template-columns: repeat(2,1fr);
+    }
+
+}
+
+@media (max-width: 540px) {
+    
+    /* Home */
+
+    .header-nav {
+        flex-direction: column;
+        height: 20rem;
+    }
+
+    .title-span {
+        left: 28rem;
+    }
+
+    .servicios {
+        height: 83rem;
+    }
+
+    .artistas {
+        height: 83rem;
+    }
+
+    .artistas-profile {
+        width: 100%;
+    }
+
+    .footer p{
+        text-align: center;
+    }
+
+    .dB-1, .dB-2, .dB-3, .dB-4, .fader-1, .fader-2, .fader-3, .fader-4, .signal-1::after, .signal-2::after, .signal-3::after, .signal-4::after {
+        display: none;
+    }
+
+}
+
+@media (max-width: 425px) {
+    
+    /* Home */
+
+    .header-nav {
+        height: 42rem;
+    }
+
+    .header-title {
+        justify-content: center;
+    }
+
+    .title-span {
+        left: 22rem;
+    }
+
+    .header-nav ul {
+        width: 100%;
+        flex-direction: column;
+        padding-left: 0;
+    }
+
+    .header-nav ul li {
+        padding: 2rem 0;
+    }
+
+    .hero-content {
+        grid-template-columns: 100%;
+        grid-template-rows: 30% 70%;
+
+    }
+
+    .hero-content-title h2{
+        text-align: unset;
+        position: absolute;
+        top: 15rem;
+    }
+
+    .servicios {
+        height: 121rem;
+    }
+
+    .servicios-prod {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .artistas {
+        height: 135rem;
+    }
+
+    .artistas-container {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .artistas-profile {
+        width: 100%;
+    }
+
+    /* Servicios page */
+
+    .servicios {
+        height: 129rem;
+    }
+
+    .servicio-detalles-container {
+        height: 150rem;
+    }
+
+    .servicio-detalles {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .us-info-content {
+        grid-template-columns: 100%;
+    }
+
+    .us-info-content img {
+        height: 90%;
+    }
+
+    .engineer {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .formulario-top {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .footer p {font-size: 1.4rem;}
+}
+
+@media (max-width: 320px) {
+    
+    /* Home */
+
+    .hero-content-title h2 {
+        top: 10rem;
+        left: 5rem;
+    }
+
+    .servicios {
+        height: 140rem;
+    }
+
+    .artistas {
+        height:145rem;
+    }
+}
